@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background-color: yellow;
+
+}
+
+.feeback-container{
+    background-color: white;
+    width: 400px;
+    height:200px ;
+    box-shadow: 0 6px 8px rgba(0,0,0,.3 );
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.emoji-container
+{
+    position: absolute;
+    display:flex ;
+    left: 50%;
+    bottom: 50%;
+    width: 32px;
+    height: 32px;
+    border-radius: 49%;
+    background-color: gree;
+    transform: translateX(-50%);
+    overflow: hidden;
+
+}
+
+.fa-regular{
+    margin: px;
+    transform: translateX(0);
+    transition: transform 0.5s;
+}
+
+.rating-container {
+    position: absolute;
+    bottom: 45%;
+
+}
+
+.fa-star{
+    color: lightgrey;
+    cursor: pointer;
+}
+.fa-star.active{
+    color: gold;
+}
